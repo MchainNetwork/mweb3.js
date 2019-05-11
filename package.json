@@ -1,0 +1,42 @@
+{
+  "name": "mweb3",
+  "namespace": "mchain",
+  "version": "1.2.2",
+  "description": "MAR JavaScript API comunicating to mchain node over RPC",
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marbellachain/mweb3.js.git"
+  },
+  "license": "LGPL-3.0",
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bignumber.js": "^7.2.1",
+    "bn.js": "^4.11.8",
+    "bs58": "^4.0.1",
+    "chai": "^4.1.2",
+    "ethjs-abi": "^0.2.1",
+    "lodash": "^4.17.10",
+    "utf8": "^3.0.0",
+    "web3-utils": "^1.0.0-beta.36"
+  },
+  "homepage": "https://mchain.network/",
+  "bugs": {
+    "url": "https://github.com/marbellachain/mweb3.js/issues"
+  },
+  "keywords": [
+    "mchain",
+    "mcoin",
+    "mar",
+    "javascript",
+    "jsonrpc"
+  ],
+  "author": "mchain.network"
+}
